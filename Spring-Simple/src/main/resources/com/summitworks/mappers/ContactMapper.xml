@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.summitworks.mappers.ContactMapper">
+
+	<resultMap id="resultMap" type="contact">
+		<id property="id" column="ID" />
+		<result property="username" column="USERNAME" />
+		<result property="email" column="EMAIL" />
+		<result property="phone" column="PHONE" />
+	</resultMap>
+	
+	<select id="selectContactList" parameterType="string" resultMap="resultMap">
+	SELECT id, userid username, email, phone
+	  FROM users U
+	</select>
+	
+</mapper>

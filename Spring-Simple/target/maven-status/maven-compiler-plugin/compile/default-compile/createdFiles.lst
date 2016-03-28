@@ -1,0 +1,10 @@
+com\summitworks\controller\LoginController.class
+com\summitworks\repository\ContactRepositoryImpl.class
+com\summitworks\model\Contact.class
+com\summitworks\test\App.class
+com\summitworks\controller\ContactController.class
+com\summitworks\service\ContactService.class
+com\summitworks\controller\HelloController.class
+com\summitworks\test\HibernateUtil.class
+com\summitworks\repository\ContactRepository.class
+com\summitworks\service\ContactServiceImpl.class
