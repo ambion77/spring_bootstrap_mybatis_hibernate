@@ -1,6 +1,6 @@
 # spring_bootstrap_mybatis_hibernate
 
-mybatis와 hibernate 둘다 사용 가능한 spring base web project
+mybatis와 hibernate 둘다 사용 가능한 spring base web/mobile project
 
 =====data-access.properties 수정====================================
 
