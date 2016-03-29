@@ -2,7 +2,7 @@
 
 mybatis와 hibernate 둘다 사용 가능한 spring base web project
 
-=====data-access.properties 수정================================================================================
+=====data-access.properties 수정=========================================================================
 security.username.query=select userid username, '123' password,1 enabled from users where 1=1 and userid = ?
 
 security.authorities.query=select 'piazz' username, 'ROLE_USER' authority from users where 1=1 and userid = ?
@@ -14,7 +14,7 @@ jdbc.url=jdbc:oracle:thin:@localhost:1521:CHEESE
 jdbc.username=scott
 
 jdbc.password=tiger
-================================================================================================================
+========================================================================================================
  1. ID, USERID,EMAIL,PHONE 컬럼가진 USERS 테이블을 만들고 서버구동(USERID가 'piazz'인 데이터 입력)
  2. http://localhost:8080/Spring-Simple/    
  3. 로그인페이지에서 piazz/123으로 로그인
