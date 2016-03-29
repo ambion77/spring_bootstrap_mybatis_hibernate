@@ -2,14 +2,14 @@
 
 mybatis와 hibernate 둘다 사용 가능한 spring base web project
 
-=====data-access.properties 수정======================================================================================
+=====data-access.properties 수정================================================================================
 jdbc.driverClassName=oracle.jdbc.driver.OracleDriver
 jdbc.url=jdbc:oracle:thin:@localhost:1521:CHEESE
 jdbc.username=scott
 jdbc.password=tiger
 
-security.username.query=select userid username, '123' password,1 enabled from users where 1=1 and userid = ?
-security.authorities.query=select 'piazz' username, 'ROLE_USER' authority from users where 1=1 and userid = ?
+security.username.query=select userid username, '123' password,1 enabled from users where 1=1 and userid = ? 
+security.authorities.query=select 'piazz' username, 'ROLE_USER' authority from users where 1=1 and userid = ? 
 ================================================================================================================
 
 
