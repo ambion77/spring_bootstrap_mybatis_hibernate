@@ -7,6 +7,8 @@ security.username.query=select userid username, '123' password,1 enabled from us
 security.authorities.query=select 'piazz' username, 'ROLE_USER' authority from users where 1=1 and userid = ? 
 jdbc.driverClassName=oracle.jdbc.driver.OracleDriver
 jdbc.url=jdbc:oracle:thin:@localhost:1521:CHEESE
+
+
 jdbc.username=scott
 jdbc.password=tiger
 ================================================================================================================
