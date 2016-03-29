@@ -7,11 +7,9 @@ jdbc.driverClassName=oracle.jdbc.driver.OracleDriver
 jdbc.url=jdbc:oracle:thin:@localhost:1521:CHEESE
 jdbc.username=scott
 jdbc.password=tiger
-
 security.username.query=select userid username, '123' password,1 enabled from users where 1=1 and userid = ? 
 security.authorities.query=select 'piazz' username, 'ROLE_USER' authority from users where 1=1 and userid = ? 
 ================================================================================================================
-
 
  1. ID, USERID,EMAIL,PHONE 컬럼가진 USERS 테이블을 만들고 서버구동(USERID가 'piazz'인 데이터 입력)
  2. http://localhost:8080/Spring-Simple/    
